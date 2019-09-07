@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "479269754457",
+    "firebase_url": "https://aadbdtproject.firebaseio.com",
+    "project_id": "aadbdtproject",
+    "storage_bucket": "aadbdtproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479269754457:android:34189a998fcbbf48",
+        "android_client_info": {
+          "package_name": "algebra.hr.aadbdt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479269754457-vlo78ksf8pe9en843duq8padrmtommef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "algebra.hr.aadbdt",
+            "certificate_hash": "e34a039306ff48ef35a8d3e61e85d4884fa98e1e"
+          }
+        },
+        {
+          "client_id": "479269754457-dcf5p681i3hqksp1l1c4d46hkec104ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmZADmtmpvjUd30GCEN_fFrAM-UDM-UU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479269754457-dcf5p681i3hqksp1l1c4d46hkec104ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

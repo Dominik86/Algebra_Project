@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTextPackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We offer you 3 packages. Choose one. \nCurrently FREE package"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:id="@+id/llFREEPacket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/free"
+        android:layout_marginBottom="30dp"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_grey_elevation"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/package1"
+                android:maxWidth="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_icon"
+                android:text="PACKAGE FREE"
+                android:textColor="@color/free"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:text="0.00 $"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_icon"
+                android:layout_below="@+id/tv_title"
+                android:textSize="10dp"
+                android:text="Package FREE allows you to upload max 3 picture per day"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPROPacket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/iron"
+        android:layout_marginBottom="30dp"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_grey_elevation"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/iv_icon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/package2"
+                android:maxWidth="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/tv_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_icon2"
+                android:text="PACKAGE PRO"
+                android:textColor="@color/pro"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tv_status2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:text="15.00 $"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_icon2"
+                android:layout_below="@+id/tv_title2"
+                android:textSize="10dp"
+                android:text="Package PRO allows you to upload max 20 picture per day"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llGOLDPacket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/iron"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_grey_elevation"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/iv_icon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/package3"
+                android:maxWidth="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/tv_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_icon3"
+                android:text="GOLD PACKAGE"
+                android:textColor="@color/gold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tv_status3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:text="25.00 $"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_icon3"
+                android:layout_below="@+id/tv_title3"
+                android:textSize="10dp"
+                android:text="Package GOLD allows you to upload max 50 picture per day"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
